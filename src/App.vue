@@ -100,4 +100,17 @@ ul {
   opacity: 0;
   transform: translateX(-10px);
 }
+
+.slide-up-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.slide-up-enter-active {
+  transition: all 0.2s ease;
+}
+
+.slide-up-move {
+  transition: transform 0.5s ease-out;
+}
 </style>
