@@ -8,7 +8,8 @@
       <router-link to="/simple">Simple</router-link>&nbsp;|&nbsp;
       <router-link to="/stagger">Stagger</router-link>&nbsp;|&nbsp;
       <router-link to="/state">State</router-link>&nbsp;|&nbsp;
-      <router-link to="/timeline">Timeline</router-link>
+      <router-link to="/timeline">Timeline</router-link>&nbsp;|&nbsp;
+      <router-link to="/master">Master</router-link>
     </nav>
     <transition name="slide-fade" mode="out-in">
       <router-view />
