@@ -4,6 +4,7 @@
     @before-enter="beforeEnter"
     @enter="enter"
     :css="false"
+    tag="div"
   >
     <div class="card" v-for="card in cards" :key="card.id">
       <p>{{ card.title }}</p>
