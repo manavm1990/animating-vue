@@ -1,8 +1,8 @@
 <template>
   <div>
-    <img class="runner first" src="../assets/runner.png" alt="runner" />
-    <img class="runner second" src="../assets/runner.png" alt="runner" />
-    <img class="runner third" src="../assets/runner.png" alt="runner" />
+    <img class="runner first" src="@/assets/runner.png" alt="runner" />
+    <img class="runner second" src="@/assets/runner.png" alt="runner" />
+    <img class="runner third" src="@/assets/runner.png" alt="runner" />
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
 .runner {
   display: block;
   height: 5em;
-  width: 5em;
   margin-top: 1.5em;
+  width: 5em;
 }
 </style>
