@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Modal</router-link> |
-      <router-link to="/list">List</router-link>
-    </div>
+    <nav>
+      <router-link to="/">Modal</router-link>&nbsp;|&nbsp;
+      <router-link to="/list">List</router-link>&nbsp;|&nbsp;
+      <router-link to="/drawer">Drawer</router-link>
+    </nav>
     <transition name="slide-fade" mode="out-in">
       <router-view />
     </transition>
@@ -47,16 +48,16 @@ input {
   width: 250px;
 }
 
-#nav {
+nav {
   padding: 30px;
 }
 
-#nav a {
+nav a {
   color: #2c3e50;
   font-weight: bold;
 }
 
-#nav a.router-link-exact-active {
+nav a.router-link-exact-active {
   color: #42b983;
 }
 
