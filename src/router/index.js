@@ -40,6 +40,11 @@ const routes = [
     name: "Stagger",
     component: () =>
       import(/* webpackChunkName: "stagger" */ "@/views/Stagger.vue")
+  },
+  {
+    path: "/state",
+    name: "State",
+    component: () => import(/* webpackChunkName: "state" */ "@/views/State.vue")
   }
 ];
 
