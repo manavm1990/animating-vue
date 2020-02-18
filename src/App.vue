@@ -3,7 +3,8 @@
     <nav>
       <router-link to="/">Modal</router-link>&nbsp;|&nbsp;
       <router-link to="/list">List</router-link>&nbsp;|&nbsp;
-      <router-link to="/drawer">Drawer</router-link>
+      <router-link to="/drawer">Drawer</router-link>&nbsp;|&nbsp;
+      <router-link to="/cards">Cards</router-link>
     </nav>
     <transition name="slide-fade" mode="out-in">
       <router-view />
