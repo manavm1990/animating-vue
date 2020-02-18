@@ -1,7 +1,9 @@
 <template>
-  <transition appear @before-enter="beforeEnter" @enter="enter" :css="false">
-    <div class="card"></div>
-  </transition>
+  <div>
+    <transition appear @before-enter="beforeEnter" @enter="enter" :css="false">
+      <div class="card"></div>
+    </transition>
+  </div>
 </template>
 
 <script>
@@ -13,9 +15,7 @@ export default {
       el.style.opacity = 0;
       el.style.transform = "scale(0,0)";
     },
-    // 'done' just represents next step in lifecycle
     enter(el, done) {
-      // Tell cards where to go 'to'
       gsap.to(el, {
         duration: 1,
         opacity: 1,
